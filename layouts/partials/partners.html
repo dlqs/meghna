@@ -20,7 +20,7 @@
 		<div class="row justify-content-center">
 			{{"<!-- portfolio item -->" | safeHTML}}
 			{{ range .partner_item }}
-			<div class="col-lg-4" >
+			<div class="col-lg-3" >
 				<div class="mb-4">
 					<img class="img-fluid" src="{{ .image_webp | absURL }}" onerror="this.onerror=null;this.src='{{ .image | absURL }}'" alt="{{ .name }}">
 				</div>
