@@ -3,7 +3,11 @@
 {{ if $data.partners.partners.enable }}
 {{ with $data.partners.partners }}
 {{"<!-- Portfolio Section -->" | safeHTML}}
-<section class="portfolio section" id="portfolio">
+<section id="portfolio" class="portfolio overly section bg-2"
+	           style='background-image: url("{{ .bg_image_webp | absURL }}")'>
+	  <!-- this image is for trigger this section fallback background image -->
+	  <img style="display: none;" onerror="this.onerror=null;this.parentElement.style.backgroundImage= 'url({{ .bg_image | absURL }})'" src="{{ .bg_image_webp | absURL }}" />
+
 	<div class="container">
 		<div class="row ">
 			<div class="col-xl-12">
