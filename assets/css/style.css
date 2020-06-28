@@ -861,14 +861,14 @@ a:hover {
 }
 
 /*=================================================================
-  Portfolio section
+  Products section
 ==================================================================*/
-.portfolio-filter {
+.products-filter {
   margin-bottom: 40px;
   text-align: center;
 }
 
-.portfolio-filter .btn {
+.products-filter .btn {
   outline: 0;
   border: 1px solid rgba(236, 239, 241, 0.07);
   background: transparent;
@@ -880,15 +880,15 @@ a:hover {
   transition: .3s all;
 }
 
-.portfolio-filter .btn.active {
+.products-filter .btn.active {
   border-color: #57cbcc;
 }
 
-.portfolio-block {
+.products-block {
   position: relative;
 }
 
-.portfolio-block:before {
+.products-block:before {
   transition: all 0.3s ease-in-out;
   background: white;
   opacity: 0;
@@ -900,25 +900,25 @@ a:hover {
   content: '';
 }
 
-.portfolio-block img {
+.products-block img {
   width: 100%;
   height: auto;
 }
 
-.portfolio-block:hover:before {
+.products-block:hover:before {
   opacity: 1;
 }
 
-.portfolio-block:hover .caption h4 {
+.products-block:hover .caption h4 {
   top: 45%;
 }
 
-.portfolio-block:hover .caption {
+.products-block:hover .caption {
   opacity: 1;
   top: 55%;
 }
 
-.portfolio-block .caption {
+.products-block .caption {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -930,16 +930,16 @@ a:hover {
   text-align: center;
 }
 
-.portfolio-block .caption h4 {
+.products-block .caption h4 {
   font-size: 18px;
   font-weight: 600;
 }
 
-.portfolio-block .caption h4 a {
+.products-block .caption h4 a {
   color: #555;
 }
 
-.portfolio-block .caption .search-icon {
+.products-block .caption .search-icon {
   background: #57cbcc;
   width: 50px;
   height: 50px;
@@ -949,7 +949,7 @@ a:hover {
   border-radius: 30px;
 }
 
-.portfolio-block .caption .search-icon i {
+.products-block .caption .search-icon i {
   line-height: 50px;
 }
 
@@ -1239,6 +1239,11 @@ a:hover {
 
 .post-block .content {
   padding: 20px;
+}
+
+.post-block img {
+    width:350px;
+    height:200px;
 }
 
 .post-block .content h3 {
