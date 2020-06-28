@@ -550,6 +550,7 @@ a:hover {
   padding: 30px;
   border-bottom: 2px solid transparent;
   transition: .5s all;
+  height: 450px;
   margin-bottom: 20px;
 }
 
@@ -799,6 +800,11 @@ a:hover {
   margin: 0;
 }
 
+.client-img {
+    width: 300px;
+    height: 200px;
+}
+
 /*=================================================================
   Pricing section
 ==================================================================*/
@@ -955,6 +961,7 @@ a:hover {
   border-left: 1px solid rgba(236, 239, 241, 0.07);
   border-top: 1px solid rgba(236, 239, 241, 0.07);
   margin-bottom: 40px;
+  height: 300px;
   box-shadow: 2px 2px 5px rgba(44, 44, 44, 0.3), 13px 13px 0 rgba(255, 255, 255, 0.7);
 }
 
@@ -1227,6 +1234,7 @@ a:hover {
 .post-block {
   background-color: #292F36;
   margin-bottom: 10px;
+  height: 500px;
 }
 
 .post-block .content {
