@@ -550,7 +550,7 @@ a:hover {
   padding: 30px;
   border-bottom: 2px solid transparent;
   transition: .5s all;
-  height: 450px;
+  height: 530px;
   margin-bottom: 20px;
 }
 
@@ -1755,7 +1755,7 @@ aside.widget {
   border: 0;
   color: #C8C8CA;
   display: block;
-  font-size: 18px;
+  font-size: 16px;
   height: 32px;
   outline: 0;
   position: absolute;
