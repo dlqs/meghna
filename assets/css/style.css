@@ -112,6 +112,7 @@ a:hover {
 
 .btn-transparent {
   border: 1px solid #4e595f;
+  background-color: black;
 }
 
 .btn-transparent:hover,
@@ -437,11 +438,12 @@ a:hover {
 
 .hero-area {
   background-size: cover;
-  height: 100vh;
+  height: 80vh;
   position: relative;
   display: flex;
   justify-content: center;
   align-items: center;
+  background-attachment: fixed;
 }
 
 .hero-area:before {
@@ -931,12 +933,13 @@ a:hover {
 }
 
 .products-block .caption h4 {
-  font-size: 18px;
+  font-size: 20px;
   font-weight: 600;
 }
 
 .products-block .caption h4 a {
-  color: #555;
+  color: #57cbcc;
+  text-decoration: underline;
 }
 
 .products-block .caption .search-icon {
